@@ -1,0 +1,18 @@
+[user]
+  name = Jan Zikan
+  email = jan.zikan@gmail.com
+[color]
+  ui = auto
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  rhi = reset --hard HEAD~1
+  rsi = reset --soft HEAD~1
+  lol = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  #lol = log --pretty=oneline --abbrev-commit --graph --decorate
+
+[branch]
+  autosetuprebase = always
