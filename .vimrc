@@ -35,7 +35,12 @@ filetype plugin indent on
 
 " ### Color scheme
 set t_Co=256
-colorscheme inkpot
+" colorscheme inkpot
+" colorscheme hybrid
+" colorscheme busybee
+" colorscheme jellybeans
+" colorscheme railscasts
+colorscheme badwolf
 
 
 " ### Settings
