@@ -1,0 +1,13 @@
+bindkey "^[[1;3D" prev # xterm: alt + left arrow
+bindkey "^[[1;3C" next # xterm: alt + right arrow
+bindkey "^[[d" prev
+bindkey "^[[c" next
+
+multiuser on
+screen -t bash
+screen -t vim
+screen -t test
+screen -t server
+select 0
+caption always "%H%=%-Lw%{R.}%n%f*%{-} %t%+Lw%=%c:%s"
+#hardstatus alwayslastline "%n %t%? - %h"
