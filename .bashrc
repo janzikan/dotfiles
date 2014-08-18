@@ -62,5 +62,5 @@ fi
 # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/.rvm/bin
 
-export export TERM='xterm-256color'
+export TERM='xterm-256color'
 export EDITOR=vim
