@@ -1,3 +1,7 @@
+term xterm-256color
+# Erase background with current bg color
+defbce "on"
+
 bindkey "^[[1;3D" prev # xterm: alt + left arrow
 bindkey "^[[1;3C" next # xterm: alt + right arrow
 bindkey "^[[d" prev
