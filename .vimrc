@@ -120,3 +120,6 @@ nmap <F1> <Esc>
 map   <silent> <F5> mmgg=G`m^
 imap  <silent> <F5> <Esc> mmgg=G`m^
 
+" Re-select visual block after indenting
+vnoremap < <gv
+vnoremap > >gv
