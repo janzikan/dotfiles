@@ -2,7 +2,7 @@
 
 
 ## Clone repository ##
-`git clone git@github.com:kallak/dotfiles.git`
+`git clone https://github.com/kallak/dotfiles.git`
 
 
 ## Create symlinks ##
