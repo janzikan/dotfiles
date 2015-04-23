@@ -64,6 +64,11 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# set a fancy prompt (non-color, unless we know we "want" color)
+case "$TERM" in
+    xterm-color) color_prompt=yes;;
+esac
+
 # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/.rvm/bin
 
