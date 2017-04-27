@@ -15,5 +15,8 @@ alias cdr='cd $(git rev-parse --show-cdup)'
 # Screen
 alias sl='screen -ls'
 
+# Disk usage of folders in the current folder
+alias duc='du -h -d1'
+
 # .bashrc
 alias reloadrc='source ~/.bashrc'
