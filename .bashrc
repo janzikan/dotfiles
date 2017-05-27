@@ -105,5 +105,9 @@ PS1="$GREEN\u@\h$NO_COLOR:\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
 # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/.rvm/bin
 
+# Change directory color in the ls output
+LS_COLORS=$LS_COLORS:'di=1;33:'
+export LS_COLORS
+
 export TERM='xterm-256color'
 export EDITOR=vim
