@@ -8,6 +8,9 @@ alias ...='cd ../../'
 alias gst='git status'
 alias gb='git branch'
 alias gba='git branch -a'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gsl='git stash list'
 
 # Go to git project root directory
 alias cdr='cd $(git rev-parse --show-cdup)'
