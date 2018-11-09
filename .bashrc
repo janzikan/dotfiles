@@ -60,6 +60,11 @@ underscore() {
   rename 's/ /_/g' "$1"
 }
 
+# Git stash show
+gss() {
+  git stash show -p $1
+}
+
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
