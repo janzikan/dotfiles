@@ -10,6 +10,7 @@ alias gb='git branch'
 alias gba='git branch -a'
 alias gd='git diff'
 alias gdc='git diff --cached'
+alias gdw='git diff --word-diff'
 alias gsl='git stash list'
 
 # Go to git project root directory
