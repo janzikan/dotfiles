@@ -107,6 +107,9 @@ let mapleader = ","
 " Snippets are activated by Shift+Tab
 let g:snippetsEmu_key = "<S-Tab>"
 
+" Open new tab on ctrl+t
+map <silent> <C-t> :tabedit<CR>
+
 " Leader shortcuts for Rails commands
 map <Leader>m :Rmodel
 map <Leader>c :Rcontroller
