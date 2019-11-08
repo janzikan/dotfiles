@@ -92,6 +92,14 @@ let g:airline_section_c = "%<%F%m %#__accent_red#%{airline#util#wrap(airline#par
 let g:airline_section_b = ""
 
 
+" ### NERDTree
+" Show hidden files
+let NERDTreeShowHidden=1
+
+" Toggle on ctrl+n
+map <silent> <C-n> :NERDTreeToggle<CR>
+
+
 " ### Mappings
 " , is the leader character
 let mapleader = ","
