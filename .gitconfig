@@ -7,6 +7,7 @@
   st = status
   ci = commit
   br = branch
+  brh = for-each-ref --sort=-committerdate --format="%(color:blue)%(authordate:relative)%09%(color:red)%(authorname)%09%(color:white)%(color:bold)%(refname:short)" refs/remotes
   co = checkout
   df = diff
   rhi = reset --hard HEAD~1
