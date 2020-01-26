@@ -22,13 +22,9 @@ Plugin 'godlygeek/csapprox'
 Plugin 'godlygeek/tabular'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tomtom/tlib_vim'
-Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'garbas/vim-snipmate'
-Plugin 'othree/html5.vim'
 Plugin 'pangloss/vim-javascript'
-Plugin 'kchmck/vim-coffee-script'
 Plugin 'bling/vim-airline'
-Plugin 'boblin/pgsql.vim'
 call vundle#end()
 filetype plugin indent on
 
