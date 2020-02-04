@@ -16,6 +16,9 @@ alias gsl='git stash list'
 # Go to git project root directory
 alias cdr='cd $(git rev-parse --show-cdup)'
 
+# Run Rubocop on all added/modified files
+alias rcopam='rubocop $(git diff --name-only --diff-filter=MA)'
+
 # Screen
 alias sl='screen -ls'
 
