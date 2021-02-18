@@ -19,6 +19,9 @@ alias cdr='cd $(git rev-parse --show-cdup)'
 # Run Rubocop on all added/modified files
 alias rcopam='rubocop $(git diff --name-only --diff-filter=MA)'
 
+# Validate all modified elm files
+alias elmval='elm-format --validate `git diff --name-only -- "*.elm"`'
+
 # Screen
 alias sl='screen -ls'
 
