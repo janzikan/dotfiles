@@ -6,6 +6,7 @@
 [alias]
   st = status
   ci = commit
+  amend = commit --amend --reuse-message=HEAD
   br = branch
   brc = for-each-ref --sort=-committerdate --format="%(color:blue)%(authordate:relative)%09%(color:red)%(authorname)%09%(color:white)%(color:bold)%(refname:short)" refs/remotes
   brlc = for-each-ref --sort=-committerdate --format="%(color:blue)%(authordate:relative)%09%(color:red)%(authorname)%09%(color:white)%(color:bold)%(refname:short)" refs/heads
@@ -19,6 +20,7 @@
   check-whitespace = !git diff-tree --check $(git hash-object -t tree /dev/null) HEAD
   created = log --follow --diff-filter=A
   root = rev-parse --show-toplevel
+  aliases = !git config -l | grep ^alias | cut -c 7- | sort
 
 [branch]
   autosetuprebase = always
