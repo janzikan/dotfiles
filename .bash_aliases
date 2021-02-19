@@ -1,5 +1,5 @@
 # ls aliases
-alias ll='ls -lA'
+alias ll='ls -lAh'
 alias la='ls -A'
 alias ..='cd ..'
 alias ...='cd ../../'
