@@ -96,6 +96,9 @@ let NERDTreeShowHidden=1
 " Toggle on ctrl+n
 map <silent> <C-n> :NERDTreeToggle<CR>
 
+" Increase width (default 31)
+let NERDTreeWinSize=40
+
 
 " ### Mappings
 " , is the leader character
