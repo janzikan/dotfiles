@@ -36,16 +36,22 @@ colorscheme badwolf
 
 " ### Settings
 set backspace=indent,eol,start
-set scrolloff=3
 set directory=/tmp
 set nobackup
 set noswapfile
 set nowritebackup
 set tabstop=2
 set shiftwidth=2
-set expandtab
-set number
 set splitbelow
+
+" Number of lines that should be displayed above and below the cursor
+set scrolloff=3
+
+" Show line numbers
+set number
+
+" Convert tabs to spaces
+set expandtab
 
 " Show the cursor position all the time
 set ruler
