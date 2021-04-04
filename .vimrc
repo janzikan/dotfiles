@@ -21,6 +21,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tomtom/tlib_vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'garbas/vim-snipmate'
 Plugin 'pangloss/vim-javascript'
 Plugin 'bling/vim-airline'
 call vundle#end()
@@ -96,6 +97,10 @@ map <silent> <C-n> :NERDTreeToggle<CR>
 
 " Increase width (default 31)
 let NERDTreeWinSize=40
+
+
+" ### SnipMate
+let g:snipMate = { 'snippet_version' : 1 }
 
 
 " ### Mappings
