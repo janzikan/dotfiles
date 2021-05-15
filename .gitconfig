@@ -24,3 +24,5 @@
 
 [branch]
   autosetuprebase = always
+[fetch]
+	prune = true
